@@ -4,3 +4,4 @@
 
 #### Post Installation scripts
 1. [Shell scripts for custom installs](https://github.com/snwh/ubuntu-post-install)
+2. (Deis - A Docker based container management tool)[http://docs.deis.io/en/latest/toctree/#toctree]
