@@ -8,6 +8,6 @@ A native Linux container format that Docker calls libcontainer, as well as the p
 - Network isolation: separate virtual interfaces and IP addressing between containers.
 - Resource isolation and grouping: resources like CPU and memory are allocated individually to each Docker container using the [cgroups](https://en.wikipedia.org/wiki/Cgroups), or control
 groups, kernel feature.
-- Copy-on-write: filesystems are created with copy-on-write, meaning they are layered and fast and require limited disk usage.
+- [Copy-on-write](https://en.wikipedia.org/wiki/Copy-on-write): filesystems are created with copy-on-write, meaning they are layered and fast and require limited disk usage.
 - Logging: STDOUT, STDERR and STDIN from the container are collected, logged, and available for analysis or trouble-shooting.
 - Interactive shell: You can create a pseudo-tty and attach to STDIN to providean interactive shell to your container
