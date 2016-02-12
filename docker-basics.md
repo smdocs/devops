@@ -6,7 +6,7 @@ A native Linux container format that Docker calls libcontainer, as well as the p
 - Filesystem isolation: each container is its own root filesystem.
 - Process isolation: each container runs in its own process environment.
 - Network isolation: separate virtual interfaces and IP addressing between containers.
-- Resource isolation and grouping: resources like CPU and memory are allocated individually to each Docker container using the cgroups, or control
+- Resource isolation and grouping: resources like CPU and memory are allocated individually to each Docker container using the [cgroups](https://en.wikipedia.org/wiki/Cgroups), or control
 groups, kernel feature.
 - Copy-on-write: filesystems are created with copy-on-write, meaning they are layered and fast and require limited disk usage.
 - Logging: STDOUT, STDERR and STDIN from the container are collected, logged, and available for analysis or trouble-shooting.
