@@ -1,10 +1,8 @@
 #Docker basics
 
-A native Linux container format that Docker calls libcontainer, as well as
-the popular container platform, lxc. The libcontainer format is now the
-default format.
+A native Linux container format that Docker calls libcontainer, as well as the popular container platform, [lxc](https://linuxcontainers.org/). The libcontainer format is now the default format.
 
-- Linux kernel namespaces, which provide isolation for filesystems, processes and networks.
+- [Linux kernel namespaces](http://lwn.net/Articles/531114/), which provide isolation for filesystems, processes and networks.
 - Filesystem isolation: each container is its own root filesystem.
 - Process isolation: each container runs in its own process environment.
 - Network isolation: separate virtual interfaces and IP addressing between containers.
